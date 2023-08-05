@@ -13,3 +13,7 @@
 ## set up k8s in azure
 
 - create resource > container > kubernetes
+
+
+## azure cli command
+- `az login`
