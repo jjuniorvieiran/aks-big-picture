@@ -17,3 +17,6 @@
 
 ## azure cli command
 - `az login`
+- `az account show`
+- `az configure --defaults group=jj-aks-rg1`
+
