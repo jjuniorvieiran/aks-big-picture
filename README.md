@@ -11,7 +11,6 @@
 
 
 ## set up k8s in azure
-
 - create resource > container > kubernetes
 
 
@@ -19,4 +18,4 @@
 - `az login`
 - `az account show`
 - `az configure --defaults group=jj-aks-rg1`
-
+- `az aks get-credentials --name jjaksdemo1` get the credentails and merge our local context
