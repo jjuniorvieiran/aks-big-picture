@@ -19,3 +19,5 @@ cat ~/.kube/config
 - `az account show`
 - `az configure --defaults group=jj-aks-rg1`
 - `az aks get-credentials --name jjaksdemo1` get the credentails and merge our local context
+- `az aks scale --resource-group jj-aks-rg1 --name jjaksdemo1 --node-count 2 --no-wait` scale nodes up
+- `az get nodes` 
