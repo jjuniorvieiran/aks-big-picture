@@ -6,6 +6,7 @@
 - `docker container run --name myapp2 -d -p 8082:80 manojnair/myapp:v2`
 - `docker container run --name myapp3 -d -p 8083:80 manojnair/myapp:v3`
 - `docker container run --name myapp4 -d -p 8084:80 manojnair/myapp:v4`
+- `docker push  jjmyappacr01.azurecr.io/myapp` push image to azure acr
 
 
 ## set up k8s in azure
